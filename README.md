@@ -1,8 +1,8 @@
 # Create-dataset
 
 This script mix to audio files to one using this pipline:
-1 - Takes random file from the front files folder 
-2 - Takes random file from the back files folder
+- Takes random file from the front files folder
+- Takes random file from the back files folder
 3 - Adds random rir to the back 
 4 - Mixes the both files according to random SNR 
 5 - Pass the mix file audio compressing 

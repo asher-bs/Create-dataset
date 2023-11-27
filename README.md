@@ -15,7 +15,7 @@ Definitions :
 - output folder path
 
 Requirments:
-- storir package [https://github.com/SRPOL-AUI/storir]
+- storir package https://github.com/SRPOL-AUI/storir
 - ffmpeg.exe
 - coder.exe endocer.exe
 

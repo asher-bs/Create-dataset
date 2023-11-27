@@ -2,16 +2,34 @@
 """
 Created on Wed Nov 22 00:24:47 2023
 
-@author: kids
+@author: Asher bs
 """
-#audio_path=r"C:\temp\wn.wav"
-#audio_in, sr = librosa.audio.load(audio_path, sr=None)  # Target signal 
-#sf.write(r"C:\temp\after_HP.wav" ,audio_out, sr, subtype='PCM_24')
-#https://hillel.org.il/podcast/se03ep05-nachaman-mishel-live-in-the-present-forgive-the-past/
-#https://www.osimhistoria.com/ima-aba/ep07-udi
+# This script mix to audio files to one using this pipline:
+# Takes random file from the front files folder 
+# Takes random file from the back files folder
+# Adds random rir to the back 
+# Mixes the both files according to random SNR 
+# Pass the mix file audio compressing 
+
+# Definitions :
+# Front and Back files folder
+# ffmpeg , coder, encoder path
+# tmp folder path
+# output folder path
+
+# Requirments:
+# storir package
+# ffmpeg.exe
+# coder.exe and encoder.exe
+
+
+# Limitation:
+# front file should be longer then back file
+# The both should have the same smaple rate
+
 
 # https://github.com/SRPOL-AUI/storir
-# pip install -e C:\Users\kids\anaconda3\Lib\site-packages\storir-master\storir-master
+# pip install -e C:\....\site-packages\storir-master\storir-master
 
 import numpy as np
 import matplotlib.pyplot as plt
